@@ -22,4 +22,4 @@ I used an Arduino Uno for this project, but this should be doable on any arduino
 
 Both the speaker and the LED's negative terminals are connected to 330 ohm resistors, which are then all connected to ground. 
 
-You can modify line 19 (25 minutes) and line 28 (5 minutes) for custom times. The delay(); function uses miliseconds as its parameters. 
+You can modify line 18 (25 minutes) and line 27 (5 minutes) for custom times. The delay(); function uses miliseconds as its parameters. 
