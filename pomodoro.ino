@@ -1,3 +1,5 @@
+#include <time.h>
+#include <TimeAlarms.h>
 const int ledGreen = 13;
 const int ledWhite = 7;
 const int ledYellow = 5;
@@ -24,5 +26,11 @@ void loop() {
   digitalWrite(ledYellow, HIGH);
   delay(300000);
   digitalWrite(ledYellow, LOW);
+  for (int i = 1; i < 4; i++) { 
+    digitalWrite(ledWhite, HIGH);
+    delay(100);
+    digitalWrite(ledWhite, LOW);
+    delay(100);
+  }
 }
 
