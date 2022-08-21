@@ -1,6 +1,3 @@
-#include <time.h>
-#include <TimeAlarms.h>
-
 const int ledGreen = 13;
 const int ledWhite = 7;
 const int ledYellow = 5;
